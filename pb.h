@@ -23,10 +23,10 @@
 /* #define PB_MAX_REQUIRED_FIELDS 256 */
 
 /* Add support for tag numbers > 65536 and fields larger than 65536 bytes. */
-/* #define PB_FIELD_32BIT 1 */
+#define PB_FIELD_32BIT 1
 
 /* Disable support for error messages in order to save some code space. */
-/* #define PB_NO_ERRMSG 1 */
+#define PB_NO_ERRMSG 1
 
 /* Disable support for custom streams (support only memory buffers). */
 /* #define PB_BUFFER_ONLY 1 */
@@ -42,7 +42,7 @@
 
 /* Enable conversion of doubles to floats for platforms that do not
  * support 64-bit doubles. Most commonly AVR. */
-/* #define PB_CONVERT_DOUBLE_FLOAT 1 */
+#define PB_CONVERT_DOUBLE_FLOAT 1
 
 /* Check whether incoming strings are valid UTF-8 sequences. Slows down
  * the string processing slightly and slightly increases code size. */

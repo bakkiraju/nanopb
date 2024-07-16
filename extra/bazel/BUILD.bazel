@@ -1,1 +1,2 @@
+exports_files(["nanopb_cc_proto_library.bzl"])
 exports_files(glob(["*.bzl"]))
